@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ludo Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="title">Ludo Game</h1>
+
+  <div id="game-container">
+    <div id="board">
+      <img 
+        src="https://raw.githubusercontent.com/wajidhasan7854/ludogame/main/ludoboard.png" 
+        alt="Ludo Board" 
+        id="board-img">
+      <canvas id="game-layer"></canvas>
+    </div>
+
+    <div class="controls">
+      <button id="roll">Roll Dice</button>
+      <div id="dice">🎲</div>
+      <div id="turn">Turn: Red</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
